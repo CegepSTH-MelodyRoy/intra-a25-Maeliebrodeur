@@ -21,3 +21,17 @@ question1()
 
 
 # Question 2
+import numpy as np
+import matplotlib.pyplot as plt
+
+# a) demande population initiale de bacteries (input)
+# b) pendant 10h calcule population a chaque heure(compteur=0)
+# augmentation population= np.pi / 1.5 a chaque heure
+# c)
+plt.xlabel("Heure")
+plt.ylabel("Population")
+# plt.title
+# plt.plot([x],[y],"*b")
+plt.plot([0,10],[50000,50000],"r--")
+plt.grid()
+plt.show()
